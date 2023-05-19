@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* .wrap{
+  background-image:  url('https://images.pexels.com/photos/589816/pexels-photo-589816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(rgb(155, 155, 253), white);
+ }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+ margin: auto;
+ padding: 20px 10px;
+ border-radius: 4px;
+ box-shadow: 0 3px 6px 0 #555; 
+background-image: linear-gradient(rgba(24, 53, 90, 10.3),rgba(4, 11, 41, 0.3)), url('https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+font-family: Montserrat;
+background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.HeadingApp{
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* CITY COMPONENT */
+
+.imgLogo{
+  width: 150px;
+  height: 150px;
+  margin: 30px 50px;
+}
+
+.citylabel{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-block: 10px;
+  margin-left: 18px;
+}
+
+.searchbox{
+  display: flex;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 25px auto;
+}
+
+.inputbox{
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.searchbutton{
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* Weather Component */
+
+.weatherCondition{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.condition{
+  margin-block: 20px;
+  margin-right: 25px;
+  font-size: 14px;
+}
+
+.condition span{
+  font-size: 30px;
+}
+
+.icons{
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+}
+
+.Location{
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.WeatherInfoLabel{
+  font-size: 14px;
+  font-weight: bold;
+position: relative;
+top: 20px;
+left: 15px;
+}
+
+.weatherInfoContainer{
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-inline: auto;
+}
+
+.InfoContainer{
+  display: flex;
+  margin: 5px 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.infoIcon{
+  width: 36px;
+  height: 36px;
+}
+
+.infoLabel{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin: 15px;
+}
+
+.infoLabel span{
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.WeatherIcons{
+  width: 156px;
+  height: 91px;
+  margin-right: 22px;
+}
